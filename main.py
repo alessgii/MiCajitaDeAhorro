@@ -398,7 +398,7 @@ home.resizable(False, False)
 home.configure(bg=bg_color)
 home.tk.call('tk', 'scaling', 3.0)
 home.protocol("WM_DELETE_WINDOW", closeApp)
-# home.iconbitmap(ruta_recurso("icono.ico"))
+home.iconbitmap("icono.ico")
 
 user_number = len(users)
 
