@@ -169,6 +169,8 @@ def depositar():
     user_profile_frame.pack_forget()
     depositar_frame.pack(fill="both", expand=True)
 
+
+## en models/user
 def realizarDeposito():
     """Funcion para realizar el deposito.
     """
@@ -201,6 +203,8 @@ def retirar():
     """
     user_profile_frame.pack_forget()
     retirar_frame.pack(fill="both", expand=True)
+
+## En models/user
 
 def realizarRetiro():
     """Funcion para retirar la cantidad de dinero que el usuario ingrese.
@@ -398,7 +402,7 @@ home.resizable(False, False)
 home.configure(bg=bg_color)
 home.tk.call('tk', 'scaling', 3.0)
 home.protocol("WM_DELETE_WINDOW", closeApp)
-home.iconbitmap("icono.ico")
+# home.iconbitmap("icono.ico")
 
 user_number = len(users)
 
